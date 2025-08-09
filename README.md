@@ -40,7 +40,7 @@ The objective was to capture WPA/WPA2 handshake packets and attempt password rec
 ---
 
 ## 📸 Demo Screenshot
-![Wireshark & Aircrack-ng in Action]()
+![Wireshark & Aircrack-ng in Action](https://github.com/Dooda6/Ethical-wifi-penetration-test/blob/5a0add6decc9b9c3f084a34f7e52b52a775b0564/IMG_1073.jpeg)
 
 ---
 
