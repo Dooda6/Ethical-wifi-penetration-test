@@ -38,6 +38,12 @@ The objective was to capture WPA/WPA2 handshake packets and attempt password rec
 > hashcat -m 22000 wificapture-01.hc22000 /usr/share/wordlists/rockyou.txt
 
 ---
+
+## 📸 Demo Screenshot
+![Wireshark & Aircrack-ng in Action](handshake-analysis.jpeg)
+
+---
+
 ### 📚 Key Learning Points
 Setting a Wi-Fi adapter to monitor mode for packet capture.
 
@@ -49,5 +55,5 @@ Performing dictionary attacks and understanding password complexity.
 
 Importance of strong passphrases to prevent brute-force attacks.
 
-
+---
 
