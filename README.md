@@ -40,7 +40,7 @@ The objective was to capture WPA/WPA2 handshake packets and attempt password rec
 ---
 
 ## 📸 Demo Screenshot
-![Wireshark & Aircrack-ng in Action](handshake-analysis.jpeg)
+![Wireshark & Aircrack-ng in Action]()
 
 ---
 
