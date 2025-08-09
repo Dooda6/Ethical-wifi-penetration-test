@@ -16,7 +16,7 @@ Simulated an **authorized** Wi-Fi penetration test to capture WPA2 handshakes an
 ---
 
 ## 📸 Demo Screenshot
-![Wireshark & Aircrack-ng in Action](
+![Wireshark & Aircrack-ng in Action]
 
 ---
 
