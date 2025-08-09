@@ -1,29 +1,26 @@
-# Ethical-wifi-penetration-test
-Authorized Wi-Fi penetration test lab demo using Airodump-ng, Aircrack-ng, Hashcat, and Wireshark to capture and analyze WPA2 handshakes.
-# 🔐 Ethical Wi-Fi Penetration Test (Lab Demo)
+# Ethical Wi-Fi Penetration Testing Demo
 
-**Objective:**  
-Simulated an **authorized** Wi-Fi penetration test to capture WPA2 handshakes and evaluate password security.
+## 📜 Project Overview
+This project demonstrates an **authorized Wi-Fi penetration test** conducted in a controlled lab environment.  
+The objective was to capture WPA/WPA2 handshake packets and attempt password recovery to evaluate wireless security.
 
-**Key Tools:**  
-`Airodump-ng` • `Aircrack-ng` • `Hashcat` • `Wireshark`
-
-**Workflow Highlights:**
-1. Captured WPA handshake packets using `Airodump-ng`.
-2. Verified EAPOL 4-way handshake in `Wireshark`.
-3. Tested password cracking with dictionary attacks in `Aircrack-ng` & GPU acceleration in `Hashcat`.
+> **Disclaimer:**  
+> All testing was performed on my **own network** and/or with explicit written permission from the network owner.  
+> Unauthorized access to networks is illegal and punishable by law.
 
 ---
 
-## 📸 Demo Screenshot
-![Wireshark & Aircrack-ng in Action]
+## 🛠 Tools Used
+- **Airodump-ng** – Captures WPA/WPA2 handshakes.
+- **Wireshark** – Analyzes network packets, verifies handshake capture.
+- **Aircrack-ng** – Performs dictionary-based password cracking.
+- **Hashcat** – GPU-accelerated password cracking.
 
 ---
 
-**Skills Demonstrated:**  
-- Wireless network monitoring & packet capture  
-- WPA/WPA2 security analysis  
-- Dictionary attack methodology  
-- Ethical hacking best practices  
+## 🔍 Process
 
-🔗 **[View Full Project & Commands](./README.md)**
+### 1️⃣ Capturing the Handshake
+```bash
+airodump-ng -w wificapture -c 11 --bssid wlan0mon
+
